@@ -10,11 +10,11 @@
     <title>Form Validation</title>
 </head>
 <body>
-    <div class="container">
+    <form novalidate class="container">
         <div class="form-container email-container">
             <div class="form-inner-container">
                 <p class="text">Email:</p>
-                <input type="text" id="email" required>
+                <input type="email" id="email" class="form-fill" required>
             </div>
 
             <p class="email-error-message"></p>
@@ -23,7 +23,7 @@
         <div class="form-container country-container">
             <div class="form-inner-container">
                 <p class="text">Country:</p>
-                <input type="text" id="country">
+                <input type="text" id="country" class="form-fill" required>
             </div>
 
             <p class="country-error-message"></p>
@@ -32,7 +32,7 @@
         <div class="form-container zip-container">
             <div class="form-inner-container">
                 <p class="text">Zip Code:</p>
-                <input type="number" id="zip">
+                <input type="number" id="zip" class="form-fill" required>
             </div>
 
             <p class="zip-error-message"></p>
@@ -41,7 +41,7 @@
         <div class="form-container password-container">
             <div class="form-inner-container">
                 <p class="text">Password:</p>
-                <input type="password" id="password">
+                <input type="password" id="password" class="form-fill" required>
             </div>
             
             <p class="password-error-message"></p>
@@ -50,13 +50,13 @@
         <div class="form-container confirm-password-container">
             <div class="form-inner-container">
                 <p class="text">Confirm password:</p>
-                <input type="password" id="confirm-password">
+                <input type="password" id="confirm-password" class="form-fill" required> 
             </div>
             
             <p class="confirm-password-error-message"></p>
         </div>
 
-        <button type="submit" id="submit-button">Submit</button>
-    </div>
+        <button id="submit-button">Submit</button>
+    </form>
 </body>
 </html>

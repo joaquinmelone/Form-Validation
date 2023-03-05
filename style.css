@@ -58,6 +58,8 @@ body {
     flex-direction: row;
 }
 
+/* INPUT */
+
 input {
     border: 5px solid black;
 }

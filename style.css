@@ -1,0 +1,63 @@
+/* GENERAL CSS PROPERTIES */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    height: 100%;
+    width: 100%;
+
+    word-wrap: break-word;
+    background-color: rgb(34, 37, 38);
+}
+
+/* MAIN CONTAINER */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    width: 35%;
+    height: 100%;
+
+    border: 5px solid orange;
+}
+
+/* FORM */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    color: white;
+    font-weight: bold;
+}
+
+.form-inner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+
+    flex-direction: row;
+}
+
+input {
+    border: 5px solid black;
+}
